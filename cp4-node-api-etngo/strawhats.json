@@ -1,0 +1,124 @@
+{
+  "pirates":  [
+    {
+      "name": "Luffy",
+      "fullName": "Monkey D. Luffy",
+      "title": "Straw Hat",
+      "race": "Human",
+      "origin": "East Blue",
+      "crew": "Strawhats",
+      "role": "Captain",
+      "devilFruit": "Gum-Gum Fruit",
+      "devilFruitType": "Paramecia",
+      "bounty": "3,000,000,000 Belly"
+    },
+    {
+      "name": "Zoro",
+      "fullName": "Roronoa Zoro",
+      "title": "Pirate Hunter",
+      "race": "Human",
+      "origin": "East Blue",
+      "crew": "Strawhats",
+      "role": "Swordsman",
+      "devilFruit": "N/A",
+      "devilFruitType": "N/A",
+      "bounty": "1,111,000,000 Belly"
+    },
+    {
+      "name": "Sanji",
+      "fullName": "Vinsmoke Sanji",
+      "title": "Black Leg",
+      "race": "Human",
+      "origin": "North Blue",
+      "crew": "Strawhats",
+      "role": "Cook",
+      "devilFruit": "N/A",
+      "devilFruitType": "N/A",
+      "bounty": "1,032,000,000 Belly"
+    },
+    {
+      "name": "Nami",
+      "fullName": "N/A",
+      "title": "Cat Burglar",
+      "race": "Human",
+      "origin": "East Blue",
+      "crew": "Strawhats",
+      "role": "Navigator",
+      "devilFruit": "N/A",
+      "devilFruitType": "N/A",
+      "bounty": "366,000,000 Belly"
+    },
+    {
+      "name": "Usopp",
+      "fullName": "N/A",
+      "title": "God",
+      "race": "Human",
+      "origin": "East Blue",
+      "crew": "Strawhats",
+      "role": "Sniper",
+      "devilFruit": "N/A",
+      "devilFruitType": "N/A",
+      "bounty": "500,000,000 Belly"
+    },
+    {
+      "name": "Chopper",
+      "fullName": "Tony Tony Chopper",
+      "title": "Cotton Candy Lover",
+      "race": "Reindeer",
+      "origin": "Grand Line",
+      "crew": "Strawhats",
+      "role": "Doctor",
+      "devilFruit": "Human-Human Fruit",
+      "devilFruitType": "Zoan",
+      "bounty": "1,000 Belly"
+    },
+    {
+      "name": "Robin",
+      "fullName": "Nico Robin",
+      "title": "Devil Child",
+      "race": "Human",
+      "origin": "West Blue",
+      "crew": "Strawhats",
+      "role": "Archaeologist",
+      "devilFruit": "Flower-Flower Fruit",
+      "devilFruitType": "Paramecia",
+      "bounty": "930,000,000 Belly"
+    },
+    {
+      "name": "Franky",
+      "fullName": "Cutty Flam",
+      "title": "Iron Man",
+      "race": "Cyborg",
+      "origin": "South Blue",
+      "crew": "Strawhats",
+      "role": "Shipwright",
+      "devilFruit": "N/A",
+      "devilFruitType": "N/A",
+      "bounty": "394,000,000 Belly"
+    },
+    {
+      "name": "Brook",
+      "fullName": "N/A",
+      "title": "Soul King",
+      "race": "Skeleton",
+      "origin": "West Blue",
+      "crew": "Strawhats",
+      "role": "Musician",
+      "devilFruit": "Revive-Revive Fruit",
+      "devilFruitType": "Paramecia",
+      "bounty": "383,000,000 Belly"
+    },
+    {
+      "name": "Jinbe",
+      "fullName": "N/A",
+      "title": "Knight of the Sea",
+      "race": "Fish-man",
+      "origin": "Grand Line",
+      "crew": "Strawhats",
+      "role": "Helmsman",
+      "devilFruit": "N/A",
+      "devilFruitType": "N/A",
+      "bounty": "1,100,000,000 Belly"
+    }
+    ]
+}

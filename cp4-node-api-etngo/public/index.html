@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+
+<!--
+  ***
+  Eugene Ngo
+  November 27, 2022
+  Section AA: Allan Tran
+
+  This is the html file for CP4. CP4 is going to be a One Piece page that displays
+  information about any of the selected Straw Hat Pirates. This HTML page allows users
+  to interact with the page, get a list of all the Straw Hat Pirates, or learn more about
+  a certain pirate.
+-->
+
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Mugiwara Pirates</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="index.js"></script>
+</head>
+<body>
+  <main>
+    <section id="intro" class="active">
+      <h1>Meet the Crew</h1>
+      <p>Wealth. Fame. Power.</p>
+      <p>
+        Gol D. Roger, the King of the Pirates, attained everything
+        this world has to offer. And so, many men head for the Grand Line to find the
+        great treasure he left behind, the One Piece. The world has truly entered a Great Pirate
+        Era! Wearing the straw hat sworn upon him by the great pirate, Shanks,
+        Monkey D. Luffy heads out to the sea on a journey on the road to become
+        King of the Pirates!
+      </p>
+      <button id="enter">Enter the Grand Line!</button>
+    </section>
+    <section id="options">
+      <h1>Which Straw Hat would you like to meet??</h1>
+      <button id="meet-all">Meet them all!</button>
+      <p>or</p>
+      <label for="name">Learn more about one: </label>
+      <input type="text" id="name" name="name" placeholder="Luffy" maxlength="10" size="10">
+      <button id="go">Go!</button>
+    </section>
+    <section id="pirates">
+      <h1>Yoroshiku!</h1>
+      <article id="pirate-card"></article>
+      <button id="go-back">Back</button>
+    </section>
+    <footer>
+      <p>
+        Warning!! This site potentially contains spoilers for One Piece. Proceed at your own risk!
+      </p>
+    </footer>
+  </main>
+</body>
+</html>
