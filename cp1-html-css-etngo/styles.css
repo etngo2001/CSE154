@@ -1,0 +1,83 @@
+/*
+  Eugene Ngo
+  October 3 2022
+  Section AA: Allan Tran
+
+  This is the styles.css page for my portfolio of web development work.
+  It is used by all pages in my portfolio to give the site a consistent
+  look and feel.
+*/
+
+/*
+  Note: This body rule set is to get you started
+*/
+body {
+  background-color: rgb(168, 208, 240);
+  font-family: "Helvetica", sans-serif;
+  width: 80%;
+}
+
+.genimg {
+  width: 500px;
+  height: 500px;
+}
+
+#portrait {
+  width: max-content;
+  height: auto;
+}
+
+a:link {
+  color: rgb(230, 47, 47);
+}
+
+a:visited {
+  color: rgb(135, 26, 26);
+}
+
+a:hover {
+  color: hotpink;
+}
+
+.center {
+  display: block;
+  width: 50%;
+}
+
+figcaption {
+  color: #111;
+  font: italic smaller sans-serif;
+  font-family: 'Lato', sans-serif;
+  padding: 3px;
+  text-align: center;
+}
+
+.automargins {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+iframe {
+  border: none;
+  width: 560px;
+  height: 315px;
+}
+
+#smiley, #emphasis {
+  font-size: 20pt;
+  color: #222;
+  font-style: italic;
+}
+
+#spectacle h2 {
+  color: rgb(255, 0, 200);
+}
+
+footer {
+  font-size: 5pt;
+}
+
+footer p {
+  font-weight: bold;
+  font-size: 10pt;
+}

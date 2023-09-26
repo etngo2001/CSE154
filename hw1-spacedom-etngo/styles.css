@@ -1,0 +1,161 @@
+/*
+  Eugene Ngo
+  October 12 2022
+  Section AA: Allan Tran
+
+  This is the styles.css page for the space.html.
+  This should give the space.html page style and a themed experience for users
+  excluding the creative section which has its own css file.
+*/
+
+body {
+  background-image: url("img/background.png");
+  background-size: cover;
+  background-attachment: fixed;
+  font-family: 'Share Tech Mono', monospace;
+}
+
+header {
+  height: 100vh;
+  justify-content: center;
+}
+
+header, .joke {
+  flex-direction: column;
+}
+
+header, .joke-cards {
+  align-items: center;
+}
+
+header, #jokes > p, #jokes > h2, .joke p abbr {
+  color: #E0DBD7;
+}
+
+header h1 {
+  font-family: 'Coda Caption', sans-serif;
+  text-transform: uppercase;
+  font-size: 120px;
+  margin-bottom: 0px;
+  text-shadow: 20px 15px 20px #551755;
+}
+
+header blockquote {
+  margin-top: 0px;
+  font-size: 22px;
+}
+
+footer {
+  background-size: 100% auto;
+}
+
+footer, #intro, #facts {
+  background-color: #E0DBD7;
+}
+
+footer p, #intro h2, #facts h2, #jokes h2, #jokes > p, #jokes > h2 {
+  text-align: center;
+}
+
+footer p, .joke {
+  padding: 20px;
+}
+
+#intro, #facts, #jokes {
+  width: 80%;
+  margin-bottom: 20px;
+}
+
+#intro h2, #facts h2, #jokes h2, #creative h2 {
+  font-size: 35px;
+  text-decoration: underline;
+}
+
+#intro, #facts {
+  border-top: 15px solid #551755;
+  border-bottom: 15px solid #551755;
+  padding: 30px;
+}
+
+header, #intro section, .joke-cards, .joke {
+  display: flex;
+}
+
+#intro p, #facts li {
+  font-size: 20px;
+}
+
+#intro img {
+  width: 25vw;
+  height: 100%;
+  border-radius: 10%;
+  margin-right: 50px;
+  margin-left: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+#facts p {
+  font-size: 25px;
+}
+
+a:link {
+  color: #FFA605;
+}
+
+a:visited {
+  color: #1B505F;
+}
+
+.joke-cards {
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.joke {
+  margin: 15px;
+  height: 400px;
+  width: 300px;
+  background-color: #9b590d;
+  opacity: 80%;
+  position: relative;
+  align-content: center;
+}
+
+.joke img {
+  height: 150px;
+  width: 150px;
+}
+
+.joke img, #intro, #facts, #jokes {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.joke hr {
+  width: 60%;
+}
+
+.joke p {
+  text-align: left;
+}
+
+.joke p abbr {
+  font-size: 28px;
+}
+
+.joke .answer {
+  color: #191818;
+}
+
+.joke p, .joke.answer {
+  font-size: 24px;
+}
+
+.joke:not(:hover) p .answer {
+  display: none;
+}
+
+.joke:hover .answer {
+  display: inline;
+}

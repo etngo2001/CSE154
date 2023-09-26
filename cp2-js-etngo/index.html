@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<!--
+  ***
+  Eugene Ngo
+  October 19 2022
+  Section AA: Allan Tran
+
+  This is the html file for CP2. My CP2 will essentially be making
+  a task organizer which will keep track of things that I need to complete,
+  when that task needs to be done by, and the date that the task was added to
+  the list.
+-->
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <script src="index.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>To-Do List</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles&family=Satisfy&display=swap"
+    rel="stylesheet">
+  </head>
+  <body>
+    <section id="personalize">
+      <label for="name">Your Name:</label>
+      <input type="text" id="name" name="name" placeholder="Eugene" maxlength="15">
+      <p>(psst then press 'enter' dummy)</p>
+    </section>
+    <header>
+      <h1>To-Do List</h1>
+      <p>Everything you need to get done.</p>
+    </header>
+    <main>
+      <section id="constructor">
+        <label for="task-text">Add a task here:</label>
+        <input type="text" name="task-text" id="task-text"
+        placeholder="task description e.g. 'CS 154 CP2'" size="40" maxlength="30">
+        <label for="due">Due:</label>
+        <input type="text" name="due" id="due" placeholder="10/19" size="10" maxlength="5">
+        <button id="add-button">Add</button>
+      </section>
+      <section id="planner">
+        <section id="tasks">
+          <h2>Tasks (<span id="task-num">0</span>)</h2>
+          <section id="task-list">
+          </section>
+        </section>
+        <section id="date-due">
+          <h2>Date Due</h2>
+        </section>
+        <section id="date-add">
+          <h2>Date Added</h2>
+        </section>
+      </section>
+      <section id="bottom">
+        <p>Click to remove a task upon completion</p>
+        <p>or</p>
+        <button id="clr-all">Clear All</button>
+      </section>
+    </main>
+    <footer>
+      <p>
+        At <span id="too-many">10</span>+ tasks, click <span class="here">here</span>
+        for a surprise :)
+      </p>
+      <p>and click <span class="here">here</span> to undo it :(</p>
+      <p class="hidden-msg">ur lame :P</p>
+      <p class="hidden-msg">nt but you're still lame lol</p>
+    </footer>
+  </body>
+</html>

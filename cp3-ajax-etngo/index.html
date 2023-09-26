@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Excuse Generator</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="index.js"></script>
+</head>
+<body>
+  <main>
+    <section id="introduction" class="active">
+      <h1>Excuse Generator</h1>
+      <p>
+        Are you really <span class="emphasis">really</span> tired today or just generally not
+        feeling it? Are you a chronic flaker? Do you have a &#128169; ton of homework (like CSE 154
+        CP3 and other projects) but you just don't know how to say 'No' to your friends? Well look
+        no further! This tool uses the <a href="https://excuser.herokuapp.com/">Excuser API</a> to
+        generate the perfect excuse for any occasion! Your perfect excuse is just one click away!
+      </p>
+      <button id="get-started">Get Started!</button>
+    </section>
+    <section id="options">
+      <h1>Please choose the type of excuse(s) you require and how many:</h1>
+      <label for="categories">Category:</label>
+      <select name="categories" id="categories">
+        <option value="random">Random</option>
+        <option value="family">Family</option>
+        <option value="office">Office</option>
+        <option value="children">Children</option>
+        <option value="college">College</option>
+        <option value="party">Party</option>
+        <option value="funny">Funny</option>
+        <option value="unbelievable">Unbelievable</option>
+        <option value="developers">Developers</option>
+        <option value="gaming">Gaming</option>
+      </select>
+      <label for="quantity">How many excuses do you need, buddy?</label>
+      <select name="quantity" id="quantity">
+        <option value="one">1</option>
+        <option value="two">2</option>
+        <option value="three">3</option>
+        <option value="four">4</option>
+        <option value="five">5</option>
+      </select>
+      <button id="go">Go!</button>
+    </section>
+    <section id="response">
+      <h1>The Excuse</h1>
+      <article id="excuse-card">
+      </article>
+      <button id="go-back">Back!</button>
+    </section>
+    <footer>
+      <p>Powered by the <a href="https://excuser.herokuapp.com/">Excuser API</a></p>
+    </footer>
+  </main>
+</body>
+</html>

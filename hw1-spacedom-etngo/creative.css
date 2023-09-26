@@ -1,0 +1,66 @@
+/*
+  Eugene Ngo
+  October 12 2022
+  Section AA: Allan Tran
+
+  This is the creative.css page for the space.html.
+  This should give a style to my unique creative section in the space.html
+  webpage.
+*/
+
+#creative {
+  background-color: coral;
+  width: 80%;
+  padding: 35px;
+  border-top: 20px solid tomato;
+  border-bottom: 20px solid tomato;
+  margin: auto;
+}
+
+#creative h2 {
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+}
+
+#creative figure, #creative h2, #creative p {
+  text-align: center;
+}
+
+#creative figcaption {
+  font: italic smaller sans-serif;
+  font-family: 'Lucida Grande', sans-serif;
+}
+
+#creative img {
+  height: 500px;
+  width: 500px;
+}
+
+h3 {
+  font-size: 18px;
+  text-decoration: underline;
+  margin-bottom: 2px;
+}
+
+#quotes {
+  margin-top: 58px;
+}
+
+#quotes ul {
+  list-style: none;
+  padding: 12px;
+  margin-top: 1px;
+}
+
+#quotes ul li:not(:last-child) {
+  margin-bottom: 8px;
+}
+
+.emphasize {
+  font-weight: bold;
+  font-family: 'Times New Roman', cursive;
+}
+
+.emphasize, h3, .author {
+  font-style: italic;
+}

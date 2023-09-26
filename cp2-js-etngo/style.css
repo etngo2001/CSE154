@@ -1,0 +1,92 @@
+/*
+ *Eugene Ngo
+ *October 19 2022
+ *Section AA: Allan Tran
+ *
+ *This is the css file for CP2. This file is meant to give a style to the webpage
+ *that was made with index.html. It will give my planner a uniform look and
+ *organize the webpage to be easier to read and use.
+ */
+
+header, #bottom, #constructor, #personalize {
+  text-align: center;
+  justify-content: center;
+}
+
+body {
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+h1 {
+  font-weight: bold;
+  font-size: 50pt;
+  text-decoration: underline;
+  margin-bottom: 0%;
+  font-family: 'Satisfy', cursive;
+}
+
+#planner {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  box-sizing: border-box;
+}
+
+#planner h2 {
+  background-color: aquamarine;
+  text-align: center;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+#planner p {
+  text-align: left;
+  color: black;
+  padding-bottom: 10px;
+  font-family: 'Fuzzy Bubbles', cursive;
+}
+
+#clr-all {
+  background-color: rgba(220, 0, 0, 1);
+  color: aliceblue;
+  font-weight: bold;
+  text-align: center;
+  padding: 15px;
+  border-color: black;
+  text-shadow: -1px -1px black, 1px -1px black, -1px 1px black, 1px 1px black;
+}
+
+#clr-all:hover {
+  background-color: rgba(255, 0, 0, 1);
+}
+
+footer {
+  background-size: 100% auto;
+  text-align: center;
+  padding: 20px;
+}
+
+footer .here:hover {
+  color: blueviolet;
+}
+
+.funny-background-img {
+  background-image: url("img/sadcat.jpg");
+}
+
+#lame, #still-lame {
+  visibility: visible;
+}
+
+.hidden-msg {
+  visibility: hidden;
+}
+
+.one-use {
+  display: none;
+}
+
+#personalize p {
+  font-size: 5pt;
+}
